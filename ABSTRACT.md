@@ -1,0 +1,9 @@
+# Abstract
+
+## Adaptive Last-Mile Delivery Fleet Allocation Using Live Traffic and Demand Signals
+
+Last-mile delivery is a critical component of modern logistics because it directly affects delivery time, operating cost, vehicle utilization, and customer satisfaction. Demand varies across service zones and time periods, while road congestion can reduce vehicle productivity and increase the risk of delayed deliveries. This project presents an adaptive decision-support prototype that combines machine-learning-based demand forecasting with capacity-aware fleet allocation and traffic-adjusted travel-time estimation.
+
+The system uses a modular Python architecture and a Streamlit dashboard. A Random Forest regression model estimates near-term order demand for delivery zones using historical demand indicators and simulated operating conditions. A fleet allocation module assigns a limited set of bikes, vans, and electric vans to zones while considering vehicle capacity, traffic-related service capacity, and selectable operational objectives. The optimization component uses Google OR-Tools CP-SAT when available and provides a greedy fallback. A routing module estimates depot-to-zone travel time using Haversine distance and traffic-adjusted speeds. The dashboard presents demand, fleet deployment, coverage, congestion, unserved demand, and estimated late-risk indicators through interactive maps, charts, and tables.
+
+The initial implementation uses synthetic Chennai zone, fleet, demand, and traffic data so that the workflow can be demonstrated without external credentials. It is therefore a prototype rather than a production dispatch platform. Real-world deployment would require validated historical order data, live traffic and GPS feeds, road-network routing, operational constraints, and model monitoring. The project demonstrates how predictive analytics and constrained optimization can support more responsive last-mile fleet planning.

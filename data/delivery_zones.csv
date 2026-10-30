@@ -1,0 +1,11 @@
+zone_id,zone_name,lat,lon,historical_avg_orders
+Z01,T. Nagar,13.0418,80.2337,42
+Z02,Adyar,13.0012,80.2565,35
+Z03,Velachery,12.975,80.221,55
+Z04,Anna Nagar,13.085,80.2101,38
+Z05,Mylapore,13.0368,80.2676,31
+Z06,Porur,13.0358,80.156,47
+Z07,Tambaram,12.9249,80.1,60
+Z08,OMR,12.9165,80.2295,52
+Z09,Ambattur,13.1143,80.1548,34
+Z10,Perungudi,12.96,80.246,45

@@ -1,0 +1,13 @@
+vehicle_id,vehicle_type,capacity_parcels,avg_speed_kmph
+V01,Bike,18,42
+V02,Bike,18,38
+V03,Bike,18,40
+V04,Bike,18,36
+V05,Bike,18,35
+V06,Bike,18,41
+V07,Van,45,34
+V08,Van,45,37
+V09,Van,45,32
+V10,EV Van,38,39
+V11,EV Van,38,35
+V12,EV Van,38,40
